@@ -10,9 +10,9 @@
 
 ## 💻 예제 화면
 
-1. [메인 페이지 - `index.html`](https://madesignoper.github.io/site)
+1. [메인 페이지 - `index.html`](https://madesignoper.github.io/site/problems/)
 
-2. [첫 주차 세부 페이지 - `first-day.html`](https://madesignoper.github.io/site/first-day.html)
+2. [첫 주차 세부 페이지 - `first-day.html`](https://madesignoper.github.io/site/problems/first-day.html)
 
 <br>
 
