@@ -1,0 +1,96 @@
+/* Init */
+html {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+}
+
+/* header */
+header {
+	padding-bottom: 2rem;
+
+	border-bottom: 1px solid black;
+}
+
+.title {
+	font-size: 3rem;
+
+	text-align: center;
+}
+
+/* header - navigation */
+.navigation {
+	padding: 0px;
+	font-size: 0px;
+
+	text-align: center;
+}
+
+.navigation > li {
+	font-size: 2rem;
+	display: inline-block;
+
+	margin-right: 10px;
+
+	font-weight: lighter;
+}
+
+.navigation > li:hover {
+	color: skyblue;
+	cursor: pointer;
+}
+
+.navigation > li:last-child {
+	margin-right: 0px;
+}
+
+/* main */
+main {
+	padding-top: 2rem;
+}
+
+.sub-title {
+	padding-left: 2rem;
+
+	font-size: 2rem;
+}
+
+.card-list-row {
+	font-size: 0;
+	text-align: center;
+}
+
+.card-list-row > article {
+	display: inline-block;
+
+	box-sizing: border-box;
+
+	padding: 1rem;
+	margin: 1rem;
+
+	width: 300px;
+
+	border: 1px solid gainsboro;
+	border-radius: 10px;
+
+	cursor: pointer;
+}
+
+.card-list-row > article:hover {
+	/* color: white; */
+	background-color: gainsboro;
+}
+
+.card-list-row > article > img {
+	width: 100%;
+	height: 300px;
+
+	object-fit: scale-down;
+}
+
+.card-list-row > article > h3 {
+	font-size: 1.5rem;
+	font-weight: lighter;
+}
